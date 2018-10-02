@@ -3,22 +3,27 @@
 #include <string>
 #include <fstream>
 #include <vector>
-#include "iomanip"
-
+#include <iomanip>
+#include "Reverse.h"
 
 using namespace std;
 
 int main()
-{
+{ 
+	Reverse numberToReverse;
+	// Take Integer in and reverse
+	int n;
+	cout << "Enter a number: ";
+	cin >> n;
 	
-  
-  
-  
-  
-  
-  
-  
+	numberToReverse.setNum(n);
+	numberToReverse.ReverseNumber();
 
-	system ("pause");
-    return 0;
+
+
+
+
+
+	system("pause");
+	return 0;
 }
